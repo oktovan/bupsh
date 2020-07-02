@@ -1,3 +1,3 @@
 sudo su postgres
-pg_dump -U pg okem > /tmp/backup.sql
+pg_dump -U pg $1 > /tmp/backup.sql
 
